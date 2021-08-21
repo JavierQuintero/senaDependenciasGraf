@@ -85,7 +85,6 @@
         }
 
         li{
-            font-size: 1.3em;
             text-transform: capitalize;
         }
         li a{
@@ -122,9 +121,19 @@
             background: #000;
             color: #fff;
             padding: 20px 30px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            line-height: 15px;
+        }
+        .bibliografia .copyright{
+            font-size: 1.7em;
         }
         
         @media screen and (max-width: 768px) {
+            .marco{
+                background: #c45f1bc2;
+            }
             .caja{
                 width: 85%;
                 padding: 0px 10px;
@@ -140,6 +149,9 @@
                 margin: 10px 0;
                 width: 85%;
             }
+            .bibliografia{
+                flex-direction: column;
+            }
         }
     </style>
     <title>Dependencias Sena</title>
@@ -150,135 +162,259 @@
 <div class="caja">
     <details open><summary><h3>1. Consejo  Directivo  Nacional </h3></summary> 
         <div class="c">
-            <p class="conte x"> Organo  colegiado  conformado  por  representantes  del 
-                gobierno, sectores económicos y trabajadores. Sus funciones principales son 
-                definir las políticas, planes y programas generales de la Entidad, expedir acuerdos 
-                con  carácter  normativo  y  hacerle  seguimiento  a  la  gestión  institucional;  además 
-                tiene  las  funciones  señaladas  en  el  art.  76  de  la  Ley  489  de  1998,  y  art.  3  del 
-                Decreto 249 de 2004.
-            </p>
+            <div class="conte x"> 
+                <details open>
+                    <summary>
+                        Organo  colegiado  conformado  por:                         
+                    </summary>
+                    <ul> 
+                        <li>Representantes  del gobierno</li>  
+                        <li>Sectores económicos</li>  
+                        <li>Trabajadores</li>  
+                    </ul>
+                </details>
+                <details>
+                    <summary>Sus funciones principales son: </summary>
+                    <ul>
+                        <li>Definir las políticas</li>
+                        <li>Planes</li>
+                        <li>Programas generales de la Entidad</li>
+                        <li>Expedir acuerdos con  carácter  normativo</li>
+                        <li>hacerle  seguimiento  a  la  gestión  institucional</li>
+                    </ul>   
+                    además tiene las funciones señaladas en el art. 76 de la Ley 489 de 1998, y art. 3 del Decreto 249 de 2004.
+                </details>
+            </div>
             <img src="./img/1_Meeting.svg">
         </div> 
-    </details>
-    
-    
+    </details>   
     <details>
-        <summary>
-            <h3>2. Dirección General</h3> 
-        </summary>
+        <summary><h3>2. Dirección General</h3></summary>
         
         <div class="c">
-            <p class="conte x"> 
-                Agente del Presidente de la República, de libre nombramiento y remoción. Tiene la función de dirigir la Entidad, ser su representante legal, y las demás señaladas en el art. 14 de la Ley 119 de 1994, art. 78 de la Ley 489 de 1998, y el art. 4 del Decreto 249 de 2004. 
-            </p>
+            <div class="conte x"> 
+                Agente del Presidente de la República, de libre nombramiento y remoción.
+                Tiene la función:
+                <ul>
+                    <li>Gerente o presidente será el representante legal</li>
+                    <li>Celebrará en su nombre los actos y contratos necesarios para el cumplimiento de sus objetivos y funciones</li>
+                    <li>Tendrá su representación judicial y extrajudicial </li>
+                    <li>Podrá nombrar los apoderados especiales que demande la mejor defensa de los intereses de la entidad </li>
+                </ul>
+                art. 78 de la Ley 489 de 1998, ver mas... <a href="http://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=33418" target="_blank" rel="noopener noreferrer">art. 4 del Decreto 249 de 2004.</a> 
+            </div>
             <img src="./img/2.0_Director.svg">
         </div>
     </details>
     <details><summary>2.1 Oficina de Control Interno </summary>
         
         <div class="c">
-            <p class="conte x"> 
-                Diseñar, dirigir, organizar y evaluar los resultados del Sistema de Control Interno del SENA<br/> art. 5 del Decreto 249 de 2004. 
-            </p>
+            <div class="conte x"> 
+               <details open>
+                   <summary>Funciones</summary>
+                   <ul>
+                       <li>Diseñar, dirigir, organizar y evaluar los resultados del Sistema de Control Interno del SENA</li>
+                       <li>Verificar que el Sistema de Control Interno esté formalmente establecido dentro de la entidad y que su ejercicio sea intrínseco al desarrollo de las funciones de todos los cargos.</li>
+                        <li>Verificar que los controles asociados con todas y cada una de las actividades de la organización estén adecuadamente definidos, sean apropiados y se mejoren permanentemente, de acuerdo con la evolución de la entidad</li>
+                        <li>Elaborar en coordinación con las dependencias de la entidad los mapas de riesgos y determinar las faltas disciplinarias más recurrentes para sugerir estrategias y políticas de prevención para disminuir las quejas e informes y en consecuencia los procesos disciplinarios, recomendando las actuaciones de carácter predictivo y correctivo de la administración</li>
+                </details> 
+                ver mas... <a href="http://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=33418" target="_blank" rel="noopener noreferrer">art. 5 del Decreto 249 de 2004.</a> 
+            </div>
             <img src="./img/2.1_diseno.svg">
         </div>
     </details>
     <details><summary>2.2. Oficina de Control Interno disciplinario</summary>
         
         <div class="c">
-            <p class="conte x"> 
-                Le corresponde recibir las quejas e informes referidos a conductas disciplinarias de los servidores públicos del SENA y demás funciones señaladas en el art. 6 del Decreto 249 de 2004 
-            </p>
+            <div class="conte x"> 
+                <details open>
+                    <summary>Funciones:</summary>
+                    <ul>
+                        <li>Le corresponde recibir las quejas e informes referidos a conductas disciplinarias de los servidores públicos del SENA </li>
+                        <li>Apoyar a la administración en la identificación de las faltas disciplinarias más recurrentes para sugerir estrategias y políticas de prevención, a fin de disminuir las quejas e informes y en consecuencia los procesos disciplinarios</li>
+                        <li>Verificar la ejecución de las sanciones impuestas a los servidores públicos de la Entidad</li>
+                        <li>Mantener actualizada la compilación de normas legales tanto internas como externas, así como la jurisprudencia en materia disciplinaria y divulgarlas</li>
+                    </ul>
+                </details>
+                ver mas... <a href="http://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=33418" target="_blank" rel="noopener noreferrer">art. 6 del Decreto 249 de 2004</a> 
+            </div>
             <img src="./img/2.2_soluciones.svg">
         </div>
     </details>
     <details><summary>2.3. Oficina de Comunicaciones</summary>
         
         <div class="c">
-            <p class="conte x"> 
-                Le corresponde diseñar e implementar la política y estrategias de comunicaciones de la Entidad, el manejo de los medios de comunicación, las publicaciones e imagen corporativa y demás funciones señaladas en el art. 7 del Decreto 249 de 2004. 
-            </p>
+            <div class="conte x"> 
+                <details open>
+                    <summary>Funciones:</summary>
+                    <ul>
+                        <li>Le corresponde diseñar e implementar la política y estrategias de comunicaciones de la Entidad, el manejo de los medios de comunicación, las publicaciones e imagen corporativa</li>
+                        <li>Asesorar a las dependencias del SENA, en el manejo de la información, divulgación, imagen corporativa y publicidad institucional</li>
+                        <li>Coordinar con las dependencias, los contenidos informativos de la página de Internet y la Intranet de la entidad, garantizando la actualización permanente de la información</li>
+                        <li>Rendir informes de gestión periódicos al Director General.</li>
+                        <li>Implementar y mantener los procesos definidos en el Sistema de Gestión de Calidad y velar por la mejora continua de los mismos en la dependencia</li>
+                    </ul>
+                </details>
+                 
+                ver mas... <a href="http://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=33418" target="_blank" rel="noopener noreferrer">art. 7 del Decreto 249 de 2004.</a>
+            </div>
             <img src="./img/2.3_comunicacion.svg">
         </div>
     </details>
     <details><summary>2.4. Oficina de Sistemas</summary>
         
         <div class="c">
-            <p class="conte x"> 
-                le corresponde la implementación de los sistemas, normas y procedimientos de informática requeridos por la Entidad y demás funciones señaladas en el art. 8 del Decreto 249 de 2004.
-            </p>
+            <div class="conte x"> 
+               <details open>
+                   <summary>Funciones:</summary>
+                   <ul>
+                       <li>Elaborar los planes de desarrollo informático de la entidad, de acuerdo con los lineamientos corporativos y a la planeación institucional, los cuales deberán tener como prioridad garantizar que los usuarios y aportantes del SENA tengan acceso a una completa información sobre los servicios y facilitar el aprendizajey la ejecución de programas de formación por medios virtuales</li>
+                       <li>Conceptuar, evaluar y definir las necesidades y lineamientos para la adquisición, adaptación, desarrollo de bienes, custodia, mantenimiento, administración de contingencias y actualización de las plataformas y de los bienes informáticos en la entidad, en coordinación con la Dirección Administrativa y Financiera y con las áreas usuarias del SENA, velando siempre por el adecuado dimensionamiento de los requerimientos de la entidad frente a los adelantos tecnológicos del entorno y por su adecuado funcionamiento.</li>
+                       <li>Efectuar el seguimiento de los planes institucionales en lo relacionado con el desarrollo informático y evaluar la utilización e impacto de esta tecnología en los procesos institucionales, así como coordinar con las demás áreas del SENA los sistemas de información institucionales, la sistematización y digitalización de sus procesos y procedimientos</li>
+                   </ul>
+               </details>
+                ver mas... <a href="http://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=33418" target="_blank" rel="noopener noreferrer">art. 8 del Decreto 249 de 2004.</a>
+            </div>
             <img src="./img/2.4_sistemas.svg">
         </div>
     </details>
     <details><summary>2.5. Secretaria General</summary>
         
         <div class="c">
-            <p class="conte x"> 
-                le corresponde la formulación de políticas y la adopción de planes, programas y proyectos relacionados con la  gestión del talento humano, así como dirigir, controlar la organización de la información documental y los archivos de la Entidad y demás funciones señaladas en el art. 9 del Decreto 249 de 2004.
-            </p>
+            <div class="conte x"> 
+                <details open>
+                    <summary>Funciones:</summary>
+                    <ul>
+                        <li> Dirigir y controlar los procesos de elaboración, tramitación y ejecución del plan de compras y el plan de contratación del SENA para cada vigencia fiscal, en coordinación con la Dirección de Planeación y Direccionamiento Corporativo, con las Direcciones Regionales, la Dirección Distrital y los Centros de Formación</li>
+                        <li>Coordinar con la Dirección de Planeación y Direccionamiento Corporativo, la definición y aplicación de indicadores de gestión para los procesos de la dependencia y responder por las metas y los indicadores de gestión establecidos en los planes indicativos y operativos, programas y proyectos de la dependencia.</li>
+                        <li>Ejecutar, coordinar y controlar los planes y programas institucionales para el desarrollo de los procesos de la gestión del talento humano al servicio de la entidad</li>
+                        <li>Ejecutar los planes de evaluación, certificación y de gestión de competencias de los servidores públicos vinculados al SENA, de acuerdo con la reglamentación que al efecto se adopte, sin perjuicio de los concursos para la selección y los procesos de evaluación del desempeño propios de la carrera administrativa</li>
+                    </ul>
+                </details>
+                ver mas... <a href="http://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=33418" target="_blank" rel="noopener noreferrer">art. 9 del Decreto 249 de 2004.</a>
+            </div>
             <img src="./img/2.5_talento.svg">
         </div>
     </details>
     <details><summary>2.6. Dirección de Planeación y Direccionamiento Corporativo</summary>
         
         <div class="c">
-            <p class="conte x"> 
-                Asesorar y asistir a todas las dependencias de la Entidad, en la formulación, diseño y determinación de las políticas, orientaciones estratégicas, planes, programas y proyectos del SENA, promoviendo y apoyando la implementación en la Entidad de una cultura de la gestión orientada por resultados y demás funciones a que hace referencia el art. 10 del Decreto 249 de 2004.  
-            </p>
+            <div class="conte x"> 
+                <details open>
+                    <summary>Funciones:</summary>
+                    <ul>
+                        <li>Asesorar y asistir a todas las dependencias de la entidad, en la formulación, diseño y determinación de las políticas, orientaciones estratégicas, planes, programas y proyectos de la entidad, promoviendo y apoyando la implementación en el SENA de una cultura de la gestión orientada por resultados</li>
+                        <li> Asistir y asesorar a todas las áreas para que a partir de la información de inteligencia corporativa y de mercado se garantice la pertinencia de la oferta de formación profesional para anticiparse a las necesidades de formación de los sectores económicos</li>
+                        <li>Realizar, de acuerdo con los lineamientos del Gobierno Nacional, la evaluación previa de los proyectos de inversión del SENA que deban ser inscritos en el Banco de Proyectos de Inversión del Departamento Nacional de Planeación, presentarlos ante las instancias competentes y gestionar su inclusión en el mismo</li>
+                        <li>Diseñar el modelo de costos y de presupuestación del SENA en el marco de las políticas de vigilancia de la gestión fiscal y asesorar la implementación del sistema de costos de la formación profesional, en coordinación con la Dirección Administrativa y Financiera de la entidad</li>
+                    </ul>
+                </details>
+                ver mas... <a href="http://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=33418" target="_blank" rel="noopener noreferrer">art. 10 del Decreto 249 de 2004.</a>  
+            </div>
             <img src="./img/2.6_planeacion.svg">
         </div>
     </details>
     <details><summary>2.7. Dirección de Formación Profesional</summary>
         
         <div class="c">
-            <p class="conte x"> 
-                Le corresponde diseñar, administrar y orientar la formación profesional integral a través de estrategias  Programas de formación por competencias, asegurando el acceso, pertinencia y calidad, demás funciones a que hace referencia el art. 11 del Decreto 249 de 2004. 
-            </p>
+            <div class="conte x"> 
+                <details open>
+                    <summary>Funciones:</summary>
+                    <ul>
+                        <li>Coordinar con los Centros de Formación y la Oficina de Comunicaciones, la publicación de la producción técnico-pedagógica realizada por los instructores del SENA</li>
+                        <li>Orientar, asesorar y evaluar los programas de formación profesional integral, así como los programas y servicios de carácter tecnológico que desarrollen los Centros de Formación Profesional, mediante la ejecución de programas de formación profesional integral y asesoría dirigidos al mejoramiento de la competitividad y la gestión de las empresas a través de los Centros de Formación o mediante alianzas y convenios.</li>
+                        <li>Impulsar la innovación, experimentación y adopción de estrategias pedagógicas y metodológicas, en diseños curriculares, procesos de formación y procesos evaluativos; hacerles seguimiento y evaluar sus resultados</li>
+                    </ul>
+                </details>
+                ver mas... <a href="http://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=33418" target="_blank" rel="noopener noreferrer">art. 11 del Decreto 249 de 2004.</a> 
+            </div>
             <img src="./img/2.7_rutas.svg">
         </div>
     </details>
     <details><summary> 2.8. Dirección del Sistema Nacional de Formación Para el Trabajo</summary>
         
         <div class="c">
-            <p class="conte x"> 
-                Dirigir la implementación en el país del Sistema Nacional de Formación para el Trabajo y proponer las políticas para la ejecución de los procesos de normalización, evaluación y certificación, reconocimiento y articulación de programas de formación que aquí se derivan, para el desarrollo del talento humano, su empleabilidad y el aprendizaje permanente y demás funciones a que hace referencia el art. 12 del Decreto 249 de 2004. 
-            </p>
+            <div class="conte x"> 
+                <details open>
+                    <summary>Funciones:</summary>
+                    <ul>
+                        <li> Dirigir la implementación en el país del Sistema Nacional de Formación para el Trabajo y proponer las políticas para la ejecución de los procesos de normalización, evaluación y certificación, reconocimiento y articulación de programas de formación que de él se derivan para el desarrollo del talento humano, su empleabilidad y el aprendizaje permanente</li>
+                        <li>Gestionar la aprobación de Normas de Competencia Laboral y orientar o evaluar las normas propuestas por gremios, asociaciones, sectores o cadenas productivas u otras entidades, para ser aprobadas por el Consejo Directivo Nacional como Normas de Competencia Laboral Colombianas.</li>
+                        <li>Reconocer los Centros de Formación Profesional Integral que actuarán como evaluadores - certificadores y las personas naturales o jurídicas que realizarán la evaluación de competencias de los trabajadores colombianos.</li>
+                    </ul>
+                </details>
+                ver mas... <a href="http://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=33418" target="_blank" rel="noopener noreferrer">art. 12 del Decreto 249 de 2004.</a> 
+            </div>
             <img src="./img/2.8_practica.svg">
         </div>
     </details>
     <details><summary>  2.9. Dirección de Promoción y Relaciones Corporativas</summary>
         
         <div class="c">
-            <p class="conte x"> 
-                Propone la formulación de políticas de promoción, mercadeo, comunicaciones y posicionamiento de la Entidad, con el fin de garantizar una adecuada atención a los usuarios y aportantes y demás funciones a que hace referencia el art. 13 del Decreto 249 de 2004. 
-            </p>
+            <div class="conte x"> 
+                <details open>
+                    <summary>Funciones:</summary>
+                    <ul>
+                       <li>Dirigir la gerencia corporativa institucional a través del relacionamiento directo con el sector empresarial y los clientes tanto internos como externos, y ejercer y dirigir la interlocución directa entre el sector productivo y todas las dependencias de la entidad.</li>
+                       <li>Coordinar con la Dirección de Planeación y Direccionamiento Corporativo, la recopilación sistemática de la información del mercado a partir de los clientes e instituciones afines al SENA y proveer información a las demás dependencias, para la formulación de planes, programas, proyectos y servicios</li>
+                       <li>Coordinar con la Secretaría General, la realización de programas de capacitación y sensibilización de los servidores públicos del SENA, con el propósito de mejorar el servicio a los usuarios, trabajadores, alumnos, empresarios y la sociedad en general</li>
+                    </ul>
+                </details>
+                ver mas... <a href="http://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=33418" target="_blank" rel="noopener noreferrer">art. 13 del Decreto 249 de 2004.</a> 
+            </div>
             <img src="./img/2.9_marketing.svg">
         </div>
     </details>
     <details><summary> 2.10. Dirección de Empleo y Trabajo</summary>
         
         <div class="c">
-            <p class="conte x"> 
-                Propone estrategias y mecanismos para adelantar los planes y programas de empleo asignados al SENA por  el Gobierno Nacional; así como en el diseño de políticas, planes, programas y proyectos relacionados con  la información para el empleo, certificación ocupacional, empleo, emprendimiento, desarrollo tecnológico y demás funciones a que hace referencia el art. 14 del Decreto 249 de 2004 
-            </p>
+            <div class="conte x"> 
+                Dirección de Empleo y Trabajo. Modificado por el Artículo 3 del Decreto 2520 de 2013. 
+                <details open>
+                    <summary>Funciones:</summary>
+                    <ul>
+                      <li>Asistir a la Dirección General, a las Direcciones Regionales, a la Dirección del Distrito Capital y a los Centros de Formación Profesional, en el diseño de políticas, planes, programas y proyectos relacionados con la información para el empleo y la articulación entre las necesidades laborales y los programas de formación profesional, certificación ocupacional, empleo, emprendimiento y desarrollo tecnológico que lleve a cabo el SENA</li>
+                      <li>Proponer estrategias y mecanismos para adelantar los planes y programas de empleo asignados al SENA por el Gobierno Nacional</li>
+                      <li>Desarrollar estrategias de promoción del servicio público de empleo, mediante la vinculación de los empleadores, entidades del Estado, sistema educativo y sistema nacional de formación para el trabajo y diseñar e implementar indicadores de seguimiento y evaluación a la gestión del servicio público de empleo</li>
+                    </ul>
+                </details>
+                ver mas... <a href="http://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=33418" target="_blank" rel="noopener noreferrer">art. 14 del Decreto 249 de 2004.</a> 
+            </div>
             <img src="./img/2.10_data.svg">
         </div>
     </details>
     <details><summary>2.11. Dirección Administrativa y Financiera</summary>
         
         <div class="c">
-            <p class="conte x"> 
-                Dirigir, coordinar, controlar y ejecutar los procesos y actividades para la administración de los recursos físicos, financieros y  prestación de servicios generales, con criterios de eficiencia y  eficacia y demás funciones a que hace referencia el art. 15 del Decreto 249 de 2004. 
-            </p>
+            <div class="conte x"> 
+                Dirección de Empleo y Trabajo. Modificado por el Artículo 3 del Decreto 2520 de 2013. 
+                <details open>
+                    <summary>Funciones:</summary>
+                    <ul>
+                      <li>Dirigir, coordinar, controlar y ejecutar los procesos y actividades requeridas en la Entidad para la administración de los recursos físicos, financieros, y prestación de servicios generales, con criterios de eficiencia y eficacia.</li>
+                      <li>Establecer y aplicar normas, procedimientos y técnicas requeridos para las bajas de bienes muebles, el manejo y control de inventarios y administrar y actualizar el registro de proveedores de la entidad, organizando, dirigiendo y controlando los procesos para garantizar los servicios públicos y el mantenimiento y conservación de los bienes muebles e inmuebles que requiere la Entidad.</li>
+                      <li>Proponer, elaborar y tramitar en coordinación con las dependencias de la entidad, las modificaciones presupuestales que no afecten el monto del presupuesto aprobado para la entidad, de conformidad con las normas legales</li>
+                    </ul>
+                </details>
+                ver mas... <a href="http://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=33418" target="_blank" rel="noopener noreferrer">art. 15 del Decreto 249 de 2004.</a> 
+            </div>
             <img src="./img/2.11_recursos.svg">
         </div>
     </details>
     <details><summary>2.12. Dirección Jurídica</summary>
-        
         <div class="c">
-            <p class="conte x"> 
-                Gestionar la solución de los asuntos de carácter jurídico que se presenten en la Entidad y demás funciones a que hace referencia el a art. 16 del Decreto 249 de 2004. 
-            </p>
+            <div class="conte x"> 
+                <details open>
+                    Dirección de Empleo y Trabajo. Modificado por el Artículo 3 del Decreto 2520 de 2013. 
+                    <summary>Funciones:</summary>
+                    <ul>
+                        <li>Emitir lineamientos para la contratación, suscripción de convenios nacionales e internacionales, elaboración de actos administrativos, procedimientos para emisión de conceptos, gestión de procesos judiciales, cobro de obligaciones, gestión de recursos y tutelas</li>
+                        <li>Revisar y actualizar en coordinación con las dependencias del SENA, los proyectos de normas internas, convenios nacionales e internacionales, contratos y demás actos administrativos que deba suscribir el Consejo Directivo Nacional y el Director General.</li>
+                        <li>Asumir la representación judicial y extrajudicial de la entidad dentro de los procesos judiciales y administrativos en que sea parte.</li>
+                    </ul>
+                </details>
+                ver mas... <a href="http://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=33418" target="_blank" rel="noopener noreferrer">art. 16 del Decreto 249 de 2004.</a> 
+            </div>    
             <img src="./img/2.12_jusga.svg">
         </div>
     </details>
@@ -286,18 +422,29 @@
     <details><summary>3.1. Comité de Dirección</summary>
         
         <div class="c">
-            <p class="conte x"> 
-                Diseñar y proponer las políticas y estrategias generales del SENA, así como ser el cuerpo técnico y consultivo de alta calificación que coadyuva en la gestión de la entidad, art. 17 del Decreto 249 de 2004 
-            </p>
+            <div class="conte x"> 
+                <details open>
+                    Le corresponde al Comité de Dirección diseñar y proponer las políticas y estrategias generales del SENA, así como ser el cuerpo técnico y consultivo de alta calificación que coadyuva en la gestión de la entidad.  
+                    <summary>El Comité de Dirección estará integrado por:</summary>
+                    <ol>
+                        <li>El Director General, quien lo presidirá.</li>
+                        <li>La Secretaría General.</li>
+                        <li>Los Directores de Área.</li>
+                    </ol>
+                </details>
+                ver mas... <a href="http://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=33418" target="_blank" rel="noopener noreferrer">art. 17 del Decreto 249 de 2004.</a> 
+            </div>
             <img src="./img/3.1_contenido.svg">
         </div>
     </details>
     <details><summary>3.2. Comité Nacional de Formación Profesional Integra</summary>
         
         <div class="c">
-            <p class="conte x"> 
-                Encargado de asesorar al Consejo Directivo Nacional y al Director General en lo concerniente a la actualización de la formación profesional integral, el tipo de especialidades, programas, contenidos y métodos, buscando mantener la unidad técnica, elevar la calidad de la formación profesional integral y promover el desarrollo productivo y de los recursos humanos del país,dejándole al reglamento la definición de su composición, operación y funciones, art. 14 de la Ley 119 de 1994.
-            </p>
+            <div class="conte x"> 
+                Encargado de asesorar al Consejo Directivo Nacional y al Director General en lo concerniente a la 
+                actualización de la formación profesional integral, el tipo de especialidades, programas, contenidos y métodos, buscando mantener la unidad técnica, elevar la calidad de la formación profesional integral, promover el desarrollo productivo y de los recursos humanos del país, dejándole al reglamento la definición de su composición.
+                ver mas... <a href="http://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=33418" target="_blank" rel="noopener noreferrer">art. 14 del Decreto 249 de 2004.</a> 
+            </div>
             <img src="./img/3.2_direccion.svg">
         </div>
     </details>
@@ -305,7 +452,8 @@
         
         <div class="c">
             <p class="conte x"> 
-                Es un organismo permanente asesor, tanto del Consejo Directivo Nacional, como del Director General del SENA. Su composición,funciones y funcionamiento será determinado por el Consejo Directivo Nacional, art. 18 del Decreto 249 de 2004.
+                Es un organismo permanente asesor, tanto del Consejo Directivo Nacional, como del Director General del SENA. Su composición,funciones y funcionamiento será determinado por el Consejo Directivo Nacional
+                ver mas... <a href="http://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=33418" target="_blank" rel="noopener noreferrer">art. 18 del Decreto 249 de 2004.</a>
             </p>
             <img src="./img/3.3_comiteFPI.svg">
         </div>
@@ -313,9 +461,17 @@
     <details><summary>3.4. Comisión de Personal</summary>
         
         <div class="c">
-            <p class="conte x"> 
-                Velar porque los procesos de selección para la provisión de empleos y de evaluación del desempeño se realicen conforme con lo establecido en las normas y procedimientos legales y reglamentarios y con los lineamientos señalados por la Comisión Nacional del Servicio Civil y demás funciones a que hace referencia el art. 16 de la Ley 909 de 2004.
-            </p>
+            <div class="conte x"> 
+                <details>
+                    <summary>Funciones: </summary>
+                    <ul>
+                        <li>Velar porque los procesos de selección para la provisión de empleos y de evaluación del desempeño se realicen conforme con lo establecido en las normas y procedimientos legales y reglamentarios y con los lineamientos señalados por la Comisión Nacional del Servicio Civil.</li>
+                        <li>Resolver las reclamaciones que en materia de procesos de selección y evaluación del desempeño y encargo les sean atribuidas por el procedimiento especial</li>
+                        <li>Solicitar a la Comisión Nacional del Servicio Civil la exclusión de la lista de elegibles de las personas que hubieren sido incluidas sin reunir los requisitos exigidos en las respectivas convocatorias, o con violación de las leyes o reglamentos que regulan la carrera administrativa. En el caso de no atenderse la solicitud, deberán informar de esta situación a la Comisión Nacional del Servicio Civil para que adopte las medidas pertinentes</li>
+                    </ul>
+                </details>
+                ver mas... <a href="http://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=33418" target="_blank" rel="noopener noreferrer">art. 16 del Decreto 909 de 2004.</a>
+            </div>
             <img src="./img/3.4_comisionPersonal.svg">
         </div>
     </details>
@@ -323,7 +479,7 @@
         
         <div class="c">
             <p class="conte x"> 
-                Conforme con lo previsto en el art. 13 de la Ley 87 de 1993, será responsable como órgano de coordinación y asesoría del diseño de estrategias y políticas orientadas al fortalecimiento del Sistema de Control Interno Institucional de conformidad con las normas vigentes y las características de la Entidad.
+                Conforme con lo previsto en el <a href="http://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=300" target="_blank" rel="noopener noreferrer">art. 13 de la Ley 87 de 1993</a> , será responsable como órgano de coordinación y asesoría del diseño de estrategias y políticas orientadas al fortalecimiento del Sistema de Control Interno Institucional de conformidad con las normas vigentes y las características de la Entidad.
             </p>
             <img src="./img/3.5_estrategia.svg">
         </div>
@@ -331,63 +487,107 @@
     <details><summary><h3>4. Direcciones Regionales y Dirección del Distrito Capital</h3></summary>
         
         <div class="c">
-            <p class="conte x"> 
+            <div class="conte x"> 
                 El art. 20 de la Ley 119 de 1994 establece que “Las regionales estarán administradas por un Director Regional, que será representante del Director General, de su nombramiento y remoción, y tendrá la responsabilidad de coordinar, administrar y velar por la ejecución de las actividades del SENA dentro de su jurisdicción”.
-            </p>
+                <h6>Vigencia</h6>
+                Corte Constitucional:
+
+                - Aparte tachado declarado INEXEQUIBLE por la Corte Constitucional mediante Sentencia C-295-95 del 6 de julio de 1995, Magistrado Ponente Dr. Antonio Barrera Carbonell, '... con la ADVERTENCIA de que los directores regionales del SENA son de libre remoción del Director General'.
+            </div>
             <img src="./img/4_delegacion.svg">
         </div>
     </details>
     <details><summary><h3>5. Consejo Regional o Distrital</h3></summary>
         
         <div class="c">
-            <p class="conte x"> 
-                El l art. 17 de la Ley 119 de 1994 indica que “estarán integrados por representantes de las mismas entidades y organizaciones  que conforman el Consejo Directivo Nacional, establecidos en la región, en igual proporción, designación y período”. Sus funciones corresponden a las señaladas en el art. 22 del Decreto 249 de 2004.
-            </p>
+            <div class="conte x"> 
+                <details open>
+                    <summary>Funciones: </summary>
+                    <ul>
+                        <li>Velar por el cumplimiento de la cobertura, flexibilidad, oportunidad, calidad y pertinencia de los programas y acciones de Formación Profesional Integral y de los demás servicios institucionales que se desarrollen en su jurisdicción, de conformidad con los indicadores de gestión definidos para cada período lectivo y proponer al Director Regional o Distrital, según el caso, los ajustes y correctivos necesarios</li>
+                        <li>Modificado por el Artículo 4 del Decreto 2520 de 2013. Monitorear la contratación de instructores que ejecute el respectivo Subdirector de Centro, la cual se adelantará siempre utilizando los bancos de contratistas y de instructores inscritos en los Centros de Información del Servicio Público de Empleo del SENA</li>
+                        <li>Evaluar las acciones que realiza el Director Regional o Distrital, encaminadas al cumplimiento de la misión de la entidad.</li>
+                    </ul>
+                </details>
+                ver mas... <a href="http://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=33418" target="_blank" rel="noopener noreferrer">art. 22 del Decreto 249 de 2004.</a>
+            </div>
             <img src="./img/5_consejo.svg">
         </div>
     </details>
     <details><summary><h3>6. Dirección Regional o Distrital según el caso</h3></summary>
         
         <div class="c">
-            <p class="conte x"> 
-                La dirección y administración de las regionales de la Entidad estará a cargo de un consejo regional y un director regional. El  director regional tiene la responsabilidad de coordinar, administrar y velar por la ejecución de las actividades del SENA dentro de su jurisdicción y demás funciones a que hace referencia el art. 24 del Decreto 249 de 2004. 
-            </p>
+            <div class="conte x"> 
+                <details open>
+                    <summary>Funciones: </summary>
+                    <ul>
+                        <li>Promover, coordinar, articular y suscribir alianzas y convenios con las demás entidades públicas y privadas, para aunar esfuerzos, recursos e impacto de los programas de formación, previa autorización impartida por el Consejo directivo regional o del Distrito Capital, en consonancia con las disposiciones presupuestales y las normas de contratación</li>
+                        <li>Medir y evaluar la gestión de los Centros de Formación y programas que dependan de la Dirección Regional o del Distrito Capital, con base en los indicadores definidos por el SENA, retroalimentarlos y hacer seguimiento a los planes de mejoramiento derivados de la evaluación.</li>
+                        <li>Integrar esfuerzos y proyectos entre los Centros de Formación de su jurisdicción y los programas, para dar respuesta articulada de servicios.</li>
+                    </ul>
+                </details>
+                ver mas... <a href="http://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=33418" target="_blank" rel="noopener noreferrer">art. 24 del Decreto 249 de 2004.</a>
+            </div>
             <img src="./img/6_direccionRegional.svg">
         </div>
     </details>
     <details><summary><h3>7. Centros de Formació Profesional Integral</h3></summary>
         
-        <div class="c">
-            <p class="conte x"> 
-                Son las dependencias responsables de la prestación de los servicios de formación profesional integral, los servicios tecnológicos, la promoción y el desarrollo del empresarismo, la normalización y evaluación de competencias laborales, en interacción con entes públicos y privados  y  en  articulación  con  las  cadenas  productivas  y  los  sectores  económicos, 
-                art 25 del Decreto 249 de 2004.
-            </p>
+        <div class="c">   
+            <div class="conte x"> 
+                <details open>
+                    <summary>Funciones: </summary>
+                    <ul>
+                        <li>Son las dependencias responsables de la prestación de los servicios de formación profesional integral, los servicios tecnológicos, la promoción y el desarrollo del empresarismo, la normalización y evaluación de competencias laborales, en interacción con entes públicos y privados y en articulación con las cadenas productivas y los sectores económicos</li>
+                    </ul>
+                </details>
+                ver mas... <a href="http://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=33418" target="_blank" rel="noopener noreferrer">art. 25 del Decreto 249 de 2004.</a>
+            </div>
             <img src="./img/7_cf.svg">
         </div>
     </details>
     <details><summary><h3>8. Comité Técnico de Centro</h3></summary>
         
         <div class="c">
-            <p class="conte x"> 
-                Conformado por “un representante del Gobierno Nacional, departamental o municipal, empresarios, trabajadores, universidades,investigadores y especialistas en el subsector”; su función principal es la de asesorar a los centros de Formación y están señaladas en el artículo 24 de la Ley 119 de 1994, tendrá además como funciones las estipuladas en el art. 30 del Decreto 249 de 2004.
-            </p>
+            
+            <div class="conte x"> 
+                <details open>
+                    <summary>Funciones: </summary>
+                    <ul>
+                        <li>Conformado por “un representante del Gobierno Nacional, departamental o municipal, empresarios, trabajadores, universidades,investigadores y especialistas en el subsector”; su función principal es la de asesorar a los centros de Formación.</li>
+                        <li>Elaborar el plan anual de trabajo del Comité, con metas e indicadores de gestión y remitirlo al Consejo Regional o Distrital, según el caso</li>
+                        <li>Lograr la integración de la comunidad a los programas ofrecidos por el Centro o los Centros que conforman el encadenamiento productivo.</li>
+                    </ul>
+                </details>
+                ver mas... <a href="http://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=33418" target="_blank" rel="noopener noreferrer">art 24 de la Ley 119 de 1994.</a>
+            </div>
             <img src="./img/8_comiteTecnico.svg">
         </div>
     </details>
 </div>
 <footer class="bibliografia">
 
-    <h2>Bibliografia</h2>
+    <div class="bio">
+        <h2>Bibliografia</h2>
 
-    <p><span>información: </span>
-        <a href="https://www.sena.edu.co/es-co/sena/Documents/Estructura_Organica_SENA_%20PP_dao.pdf" target="_blank" rel="noopener noreferrer">PDF Estructura del SENA y funciones de sus dependencias</a>
-    </p>
-    <p><span>Imagenes: </span>
-        <a href="https://undraw.co/" target="_blank" rel="noopener noreferrer">unDraw "Ilustraciones de código abierto para cualquier idea que puedas imaginar y crear."</a>
-    </p>
-    <p><span>Backgrounds: </span>
-        <a href="https://www.freepik.es/" target="_blank" rel="noopener noreferrer">Freepik "Recursos gráficos para todos"</a>
-    </p>
+        <div class="enlaces">
+             <p><span>información: </span>
+                 <a href="https://www.sena.edu.co/es-co/sena/Documents/Estructura_Organica_SENA_%20PP_dao.pdf" target="_blank" rel="noopener noreferrer">PDF Estructura del SENA y funciones de sus dependencias</a>
+             </p>
+             <p><span>Imagenes: </span>
+                 <a href="https://undraw.co/" target="_blank" rel="noopener noreferrer">unDraw "Ilustraciones de código abierto para cualquier idea que puedas imaginar y crear."</a>
+             </p>
+             <p><span>Backgrounds: </span>
+                 <a href="https://www.freepik.es/" target="_blank" rel="noopener noreferrer">Freepik "Recursos gráficos para todos"</a>
+             </p>
+        </div>
+    </div>
+    <div class="autor">
+        <h3>Elkin Javier Quintero</h3>
+        <p>Bogota-2021</p>
+
+        <div class="copyright">©</div>
+    </div>
 
 </footer>
 
@@ -436,7 +636,7 @@
             </table>
     </details> -->
     
-    
+<!--     
     <script>
         const $detailsList = document.querySelectorAll('details');
       $detailsList.forEach(function($details) {
@@ -447,7 +647,7 @@
             $details.removeAttribute('open')
         })
       } 
-    </script>
+    </script> -->
 </body>
 </html>
 
