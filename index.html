@@ -54,7 +54,7 @@
             border-radius: 8px;
             margin: 10px;
             background: rgba(3,3,3,0.3);
-            transition: border 600ms, background 700ms;
+            transition: background 700ms;
         }
         .x:hover{
             background: rgba(3,3,3,0.2);
@@ -64,7 +64,6 @@
             display: flex;
             border-radius: 5px;
             justify-content: center;
-            /* background: rgba(240, 248, 255, 0.932); */
         }
         details:nth-child(odd) .c{
             flex-direction: row-reverse;
@@ -95,27 +94,6 @@
             text-transform: uppercasa;
             cursor: pointer;
         }
-
-        /* tabla */
-            /* table {
-                margin: auto;
-                border-collapse: collapse;
-                width: 50%;
-            }
-
-            td, th {
-                border: 1px solid #dddddd;
-                text-align: left;
-                padding: 8px;
-            }
-
-            tr:nth-child(even) {
-                background-color: #dddddd;
-            }
-            td:hover, th:hover{
-                background-color: #cacaca;
-                color: rgb(161, 161, 165);   
-            } */
         .bibliografia{
             position: relative;
             background: #000;
@@ -590,64 +568,6 @@
     </div>
 
 </footer>
-
-    <!-- <details><summary> Ojo espere...... </summary>
-        
-        <ol>
-            <li><a href="https://www.google.com" target="_blank">desarrollador</a></li>
-            <li>desarrollador</li>
-            <li> <details><summary> Javier </summary>
-                
-                <ol>
-                    <li><a href="https://www.google.com" target="_blank">desarrollador</a></li>
-                    <li>desarrollador</li>
-                    <li>desarrollador</li>
-                </ol>
-            </details></li>
-        </ol>
-    </details> -->
-    <!-- <details><summary> Javier </summary>
-            <table>
-                <tr>
-                  <th>Company</th>
-                  <th>Contact</th>
-                  <th>Country</th>
-                </tr>
-                <tr>
-                  <td>Alfreds Futterkiste</td>
-                  <td>Maria Anders</td>
-                  <td>Germany</td>
-                </tr>
-                <tr>
-                  <td>Centro comercial Moctezuma</td>
-                  <td>Francisco Chang</td>
-                  <td>Mexico</td>
-                </tr>
-                <tr>
-                  <td>Ernst Handel</td>
-                  <td>Roland Mendel</td>
-                  <td>Austria</td>
-                </tr>
-                <tr>
-                  <td>Island Trading</td>
-                  <td>Helen Bennett</td>
-                  <td>UK</td>
-                </tr>
-            </table>
-    </details> -->
-    
-<!--     
-    <script>
-        const $detailsList = document.querySelectorAll('details');
-      $detailsList.forEach(function($details) {
-        $details.querySelector('summary').addEventListener('click', expand);
-      })
-        function expand(){
-            $detailsList.forEach(function($details){
-            $details.removeAttribute('open')
-        })
-      } 
-    </script> -->
 </body>
 </html>
 
